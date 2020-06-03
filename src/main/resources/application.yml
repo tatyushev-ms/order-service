@@ -1,0 +1,11 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+spring:
+  jackson:
+    mapper:
+      accept_case_insensitive_enums: true
+    deserialization:
+      fail_on_numbers_for_enums: true
+    default-property-inclusion: non_empty
